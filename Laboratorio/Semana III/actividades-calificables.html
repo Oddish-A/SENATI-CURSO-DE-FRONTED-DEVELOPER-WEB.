@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Mis Ejercicios de JavaScript</h1>
+    <!--Ejercicio 1-->
+    <section>
+        <h2>Ejercicio 1: Convertidor de Tiempo</h2>
+        <h3>Días a horas</h3>
+
+        <div>
+            <label for="idDias">Dias: </label>
+            <input type="number" id="idDias">
+            <button onclick="calcular()">Calcular</button>
+            <p id="idResultadoUno"></p>
+        </div>
+    </section>
+
+    <!--Ejercicio 2-->
+    <section>
+        <h2>Ejercicio 2: Validacion de número cero</h2>
+        <h3>¿El número es cero?</h3>
+
+        <div>
+            <label for="idNum">Número: </label>
+            <input type="number" id="idNum">
+            <button onclick="calcularCero()">Calcular</button>
+            <p id="idResultadoDos"></p>
+        </div>
+    </section>
+
+    <!--Ejercicio 3-->
+    <section>
+        <h2>Ejercicio 3: Frases identicas</h2>
+        <h3>¿las frases son iguales?</h3>
+
+        <div>
+            <label for="idFraseUno">Frase 1: </label>
+            <input type="text" id="idFraseUno">
+            <label for="idFraseDos">Frase 2: </label>
+            <input type="text" id="idFraseDos">
+            <button onclick="calcularTexto()">Calcular</button>
+            <p id="idResultadoTres"></p>
+        </div>
+    </section>
+
+    <!--Ejercicio 4-->
+    <section>
+        <h2>Ejercicio 4: Area de un Triangulo</h2>
+
+        <div>
+            <label for="idBase">Base: </label>
+            <input type="number" id="idBase">
+            <label for="idAltura">Altura: </label>
+            <input type="number" id="idAltura">
+            <button onclick="calcularArea()">Calcular</button>
+            <p id="idResultadoCuatro"></p>
+        </div>
+    </section>
+
+
+    <!--Ejercicio 5-->
+    <section>
+        <h2>Ejercicio 5: Calcular propina</h2>
+
+        <div>
+            <label for="idCalidad">Propina: </label>
+            <select id="idCalidad">
+                <option value="" selected disabled>Seleccione una opción</option>
+                
+                <option value="bueno">Bueno</option>
+                <option value="regular">Regular</option>
+                <option value="malo">Malo</option>
+            </select>
+
+            <label for="idMonto">Monto sin propina: </label>
+            <input type="number" id="idMonto">
+            <button onclick="calcularMontoFinal()">Calcular</button>
+
+            <p id="idResultadoCinco"></p>
+        </div>
+    </section>
+
+    <script src="/js/javasciprt.js"></script>
+</body>
+
+</html>

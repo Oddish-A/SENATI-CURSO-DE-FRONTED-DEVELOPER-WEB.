@@ -1,0 +1,93 @@
+/* =======================================================
+   1. ESTILOS GENERALES (Afectan a toda la página)
+   ======================================================= */
+body {
+    font-family: Arial, sans-serif;   /* Una fuente limpia y fácil de leer */
+    background-color: #f0f2f5;       /* Color de fondo gris claro para la pantalla */
+    color: #333333;                  /* Color del texto principal (gris oscuro) */
+    padding: 20px;                   /* Espacio de separación en los bordes de la pantalla */
+}
+
+/* El título principal de la página */
+h1 {
+    text-align: center;              /* Centrar el título */
+    color: #4a90e2;                  /* Color azul para el título principal */
+    margin-bottom: 30px;             /* Espacio libre hacia abajo */
+}
+
+
+/* =======================================================
+   2. LAS SECCIONES (Los recuadros de cada ejercicio)
+   ======================================================= */
+section {
+    background-color: white;         /* Fondo blanco para cada ejercicio */
+    max-width: 500px;                /* Ancho máximo de cada recuadro */
+    margin-left: auto;               /* Estas dos líneas sirven para centrar */
+    margin-right: auto;              /* el recuadro en la pantalla */
+    margin-bottom: 20px;             /* Espacio de separación entre un ejercicio y otro */
+    padding: 20px;                   /* Espacio interno entre el borde y el contenido */
+    border-radius: 8px;              /* Bordes redondeados */
+    border: 1px solid #dddddd;       /* Una línea de borde gris muy delgada */
+}
+
+/* Título de cada ejercicio (Ejercicio 1, Ejercicio 2...) */
+section h2 {
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 15px;             /* Espacio debajo del título */
+}
+
+
+/* =======================================================
+   3. ELEMENTOS DE FORMULARIO (Inputs, Selects y Botones)
+   ======================================================= */
+
+/* Las etiquetas de texto como "Días:" o "Monto:" */
+label {
+    display: block;                  /* Hace que el texto ocupe toda la línea */
+    font-weight: bold;               /* Texto en negrita */
+    margin-top: 10px;                /* Espacio hacia arriba */
+    margin-bottom: 5px;              /* Espacio hacia abajo */
+}
+
+/* Las cajas donde el usuario escribe y el menú desplegable */
+input, select {
+    width: 100%;                     /* Hace que ocupen todo el ancho disponible */
+    padding: 10px;                   /* Espacio interno para que no se vea apretado el texto */
+    font-size: 16px;                 /* Tamaño de la letra al escribir */
+    border: 1px solid #cccccc;       /* Borde gris */
+    border-radius: 4px;              /* Bordes ligeramente redondeados */
+    box-sizing: border-box;          /* Evita que el padding deforme el tamaño de la caja */
+}
+
+/* Los botones de "Calcular" */
+button {
+    width: 100%;                     /* Botón a lo ancho de la tarjeta */
+    background-color: #4a90e2;       /* Color de fondo azul */
+    color: white;                    /* Texto de color blanco */
+    padding: 12px;                   /* Tamaño del botón */
+    font-size: 16px;
+    font-weight: bold;               /* Texto en negrita */
+    border: none;                    /* Quitar el borde feo por defecto */
+    border-radius: 4px;              /* Bordes redondeados */
+    cursor: pointer;                 /* Cambia el cursor a una manito al pasar el mouse */
+    margin-top: 15px;                /* Espacio de separación con lo de arriba */
+}
+
+/* Efecto cuando pasas el mouse por encima del botón */
+button:hover {
+    background-color: #357abd;       /* Cambia a un azul más oscuro */
+}
+
+
+/* =======================================================
+   4. LOS RESULTADOS (Párrafos donde se muestra la respuesta)
+   ======================================================= */
+p {
+    margin-top: 15px;                /* Espacio arriba del resultado */
+    padding: 10px;                   /* Espacio interno */
+    background-color: #e9f3fe;       /* Fondo azul muy clarito */
+    border-left: 5px solid #4a90e2;  /* Una barra azul gruesa a la izquierda */
+    font-weight: bold;               /* Texto resaltado */
+    border-radius: 0 4px 4px 0;      /* Redondear solo las esquinas de la derecha */
+}
